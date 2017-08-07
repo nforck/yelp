@@ -16,8 +16,8 @@ First:
 ```
 git clone https://github.com/nforck/yelp.git
 ```
-Then move the dataset yelp_academic_dataset_review.json to the yelp directory and create a docker file:
+Then move the dataset yelp_academic_dataset_review.json to the yelp directory. Create and run the docker file:
 ```
-docker build -t test .
-
+docker build -t yelp .
+docker run yelp 
 ```
